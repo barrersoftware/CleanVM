@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/CleanVM.CLI/CleanVM.CLI.csproj" />
+    <Project Path="src/CleanVM.Core/CleanVM.Core.csproj" />
+    <Project Path="src/CleanVM.Desktop/CleanVM.Desktop.csproj" />
+    <Project Path="src/CleanVM.Enterprise/CleanVM.Enterprise.csproj" />
+    <Project Path="src/CleanVM.Web/CleanVM.Web.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/CleanVM.Core.Tests/CleanVM.Core.Tests.csproj" />
+    <Project Path="tests/CleanVM.Web.Tests/CleanVM.Web.Tests.csproj" />
+  </Folder>
+</Solution>
