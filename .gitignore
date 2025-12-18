@@ -30,3 +30,6 @@ Thumbs.db
 # Temp
 *.tmp
 *.temp
+
+# Internal planning documents
+docs/archive/
