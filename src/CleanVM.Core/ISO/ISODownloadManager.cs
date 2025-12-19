@@ -17,7 +17,7 @@ public class ISODownloadManager : IISODownloader
     {
         _httpClient = httpClient;
         _downloadDirectory = downloadDirectory;
-        _extendedCatalogUrl = extendedCatalogUrl ?? "https://cleanvm.net/catalog/iso-catalog.json";
+        _extendedCatalogUrl = extendedCatalogUrl ?? "https://raw.githubusercontent.com/barrersoftware/CleanVM/master/catalog.json";
         
         Directory.CreateDirectory(_downloadDirectory);
     }
