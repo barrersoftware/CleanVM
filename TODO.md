@@ -6,6 +6,12 @@ Based on our documentation promises vs actual implementation.
 - [x] Project structure and architecture
 - [x] Core interfaces defined
 - [x] ISO Detection (basic - works for 24+ OSes)
+- [x] ISO Download Manager (hybrid catalog approach)
+  - [x] Embedded catalog with 12 popular ISOs
+  - [x] Downloadable extended catalog support
+  - [x] Progress tracking
+  - [x] SHA256 checksum verification
+  - [x] CLI commands for listing and downloading
 - [x] Storage disk creation (qcow2, raw, vdi)
 - [x] Architecture detection (PowerPC, Intel, ARM)
 - [x] Floppy image creation
@@ -22,6 +28,13 @@ Based on our documentation promises vs actual implementation.
   - [ ] DMG file support for modern macOS
   - [ ] UDF ISO deep inspection (requires 7z)
   - [ ] Binary inspection for architecture
+
+- [ ] ISO Download Manager enhancements
+  - [ ] Resume interrupted downloads
+  - [ ] Download queue with parallel downloads
+  - [ ] Torrent support
+  - [ ] Automatic checksum lookup for missing checksums
+  - [ ] Extended catalog hosting on cleanvm.net
 
 - [ ] Network Manager
   - [ ] Actual NAT implementation (started, not complete)
