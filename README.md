@@ -1,5 +1,7 @@
 # CleanVM
 
+[![License: BOSL v1.1](https://img.shields.io/badge/License-BOSL_v1.1-blue.svg)](https://barrersoftware.com/foss-license.html)
+
 **Professional VM management for the modern era.**
 
 🌐 **Website:** [cleanvm.net](http://cleanvm.net)  
